@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.PrintWriter;
 import java.io.*;
 
-public class java{
+public class compiler{
     static String line;
     public static void main(String[] args) throws IOException {
         File filein = new File("in.snail"); // The file we are reading/writing to
@@ -35,8 +35,5 @@ public class java{
         pw.close();
         pw.flush();
         br.close(); // We have to close the BufferedReader to prevent memory leaks
-    }
-    public static void rplc(String target, String arrow){
-        if (line.equals(target)) line = arrow;
     }
 }
