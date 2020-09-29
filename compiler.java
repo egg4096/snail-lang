@@ -5,7 +5,7 @@ import java.io.*;
 public class java{
     static String line;
     public static void main(String[] args) throws IOException {
-        File filein = new File("in.sl"); // The file we are reading/writing to
+        File filein = new File("in.snail"); // The file we are reading/writing to
         File fileout = new File("out.java");
         String storage;
         String storage2;
