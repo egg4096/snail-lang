@@ -26,7 +26,7 @@ public class java{
             }
             if (line.length() != 0 && "{};".indexOf(line.charAt(line.length() - 1)) == -1) line += ';';
             if (importi == 1) {
-                line = "public class out {" + line;
+                line = "public class out {\n" + line;
                 importi = 8;
             }
             pw.println(line);
